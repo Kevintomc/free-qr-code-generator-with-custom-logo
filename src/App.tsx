@@ -7,7 +7,7 @@ import { Download, Share2, Image as ImageIcon, Palette, QrCode, Settings, X } fr
 type ErrorCorrectionLevel = 'L' | 'M' | 'Q' | 'H';
 
 function App() {
-  const [text, setText] = useState('https://stackblitz.com');
+  const [text, setText] = useState('https://google.com');
   const [logo, setLogo] = useState<string>('');
   const [foregroundColor, setForegroundColor] = useState('#000000');
   const [backgroundColor, setBackgroundColor] = useState('#ffffff');
